@@ -1,22 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="h1">h1. Bootstrap heading</p>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
 
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p>
-</div>
+    <button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
 
-</body>
+
+<a href="#" class="btn btn-info" role="button">Link Button</a>
+<button type="button" class="btn btn-info">Button</button>
+<input type="button" class="btn btn-info" value="Input Button">
+<input type="submit" class="btn btn-info" value="Submit Button">
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+<button type="button" class="btn btn-outline-light text-dark">Light</button>
+
+
+<form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<form class="form-inline" action="/action_page.php">
+  <label for="email">Email address:</label>
+  <input type="email" class="form-control" placeholder="Enter email" id="email">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<p class="text-primary">Color : text-primary </p>
+<p class="text-secondary">Color : text-secondary</p>
+<p class="text-success">Color : text-success</p>
+<p class="text-danger">Color : text-danger</p>
+<p class="text-warning">Color : text-warning</p>
+<p class="text-info">Color : text-info</p>
+<p class="text-black-50">Color : text-black-50</p>
+<p class="text-dark">Color : text-dark</p>
+<p class="text-body">Color : text-body</p>
+<p class="text-muted">Color : text-muted</p>
+<p class="text-white bg-dark">Color : text-white</p>
+<p class="text-light bg-dark">Color : text-light</p>
+<p class="text-white-50 bg-dark">Color : text-white-50</p>
+
+    <div class="container">
+      <h1>My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col" style="background-color: #ccc; padding: 50px">
+          .col
+        </div>
+        <div class="col" style="background-color: #f0f0f0; padding: 50px">
+          .col
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">.col-sm-3</div>
+      <div class="col-sm-3">.col-sm-3</div>
+      <div class="col-sm-3">.col-sm-3</div>
+      <div class="col-sm-3">.col-sm-3</div>
+    </div>
+  </body>
 </html>
 PreviousNext
